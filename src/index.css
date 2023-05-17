@@ -11,17 +11,6 @@ body, html {
     box-sizing: content-box;
 }
 
-.bg-image {
-    height: 120%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-  
-.img1 { background-image: url("images/taylor-smith-aDZ5YIuedQg-unsplash.jpg"); }
-.img2 { background-image: url("images/ryan-plomp-bySPt2lySzg-unsplash.jpg"); }
-.img3 { background-image: url("images/ryan-plomp-jvoZ-Aux9aw-unsplash.jpg"); }
-
 .bg-text {
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0, 0.4); 
