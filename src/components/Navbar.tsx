@@ -66,7 +66,7 @@ function Navbar() {
 
                             <Button className="p-3 m-5 bg-black justify-center rounded-lg">
                                 <div>
-                                    <Link to="/" onClick={ () => { signInOnClick()}} className="flex place-items-center mt-4 pl-7 pr-4 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white">
+                                    <Link to="/" onClick={ () => { signInOnClick()}} className="flex place-items-center mt-4 pl-8 pr-8 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white">
                                         Login
                                     </Link>
                                 </div>
