@@ -49,15 +49,15 @@ function Navbar() {
                         </Button>
                         <Button className="p-3 m-5 bg-black justify-center rounded-lg">
                             <div>
-                                <Link to="/whisky" onClick={ clicked } className="flex place-items-center mt-4 ml-3 pl-5 pr-5 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
-                                    Whisky
+                                <Link to="/dashboard" onClick={ clicked } className="flex place-items-center mt-4 pr-1 pl-5 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
+                                    Dashboard
                                 </Link>
                             </div>
                         </Button>
                         <Button className="p-3 m-5 bg-black justify-center rounded-lg">
                             <div>
-                                <Link to="/dashboard" onClick={ clicked } className="flex place-items-center mt-4 pr-1 pl-5 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
-                                    Dashboard
+                                <Link to="/sneaker" onClick={ clicked } className="flex place-items-center mt-4 ml-3 pl-5 pr-5 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
+                                    Sneaker
                                 </Link>
                             </div>
                         </Button>

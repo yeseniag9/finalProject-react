@@ -1,16 +1,12 @@
-import redWhiteBlack from '../assets/images/red-white-black.jpg'
-import white from '../assets/images/white.jpg'
-import pink from '../assets/images/pink.jpg'
+import redBlaWh from '../assets/images/red-bla-wh.jpg'
 import Button from '../components/Button'
 import { Link } from 'react-router-dom'
 import signInOnClick from '../components/DataTable'
-import { auth } from '../config/firebase'
-
 
 function Home() {
   return (
     <div>
-      <div style={{ backgroundImage: `url(${ redWhiteBlack })`, height: 1000 }} 
+      <div style={{ backgroundImage: `url(${ redBlaWh })`, height: 1000 }} 
       className="mx-auto bg-cover"></div>
 
       <div className="bg-text">Sneakerhead?</div> 
