@@ -36,33 +36,32 @@ const ContactForm = (props:ContactFormProps) => {
   }
 
   return (
-    <div>
+    <div className="pb-4">
       <form onSubmit={handleSubmit(onSubmit)}>
         <div>
-          <label htmlFor="name">Shoe Name</label> 
+          <label htmlFor="name">Sneaker Name</label>
           <Input {...register('name')} name="name" placeholder="Name" />
         </div>
-        <div>
-          <label htmlFor="nickname">Nickname</label> 
+        <div className="pt-3">
+          <label htmlFor="nickname">Nickname</label>
           <Input {...register('nickname')} name="nickname" placeholder="Nickname" />
         </div>
-        <div>
-          <label htmlFor="date">Release Date</label> 
+        <div className="pt-3">
+          <label htmlFor="date">Release Date</label>
           <Input {...register('date')} name="date" placeholder="Date" />
         </div>
-        <div>
-          <label htmlFor="size">Size</label> 
+        <div className="pt-3">
+          <label htmlFor="size">Size</label>
           <Input {...register('size')} name="size" placeholder="Size" />
-        </div>
-        <div className="flex p-1">
-        <Button 
-          className="flex justify-start m-g bg-slate-300 p-2 rounded hover:bg-slate-800 text-white"
+        </div>          <div className="flex justify-center">
+        <Button
+          className="flex mb-8 bg-red-600 p-2 pl-12 pr-12 rounded hover:bg-slate-800 text-white mt-10"
           >
             Submit
           </Button>
         </div>
       </form>
-    </div>
+    </div>    
   )
 }
 

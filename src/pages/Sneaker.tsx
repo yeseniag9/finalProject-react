@@ -4,7 +4,7 @@ import seafoam from "../assets/images/seafoam.jpg"
 function Sneaker() {
   return (
     <div>
-        <div className="flex justify-center pt-14 mt-14 text-7xl font-sans">All Sneakers</div>
+        <div className="flex justify-center pt-14 mt-14 text-7xl font-sans font-semibold">All Sneakers</div>
         <div className="flex flex-row">
             <div className="flex flex-col">
                 <img className="max-w-md p-14 pt-10" src={panda} alt="Dunk Low Panda" />
