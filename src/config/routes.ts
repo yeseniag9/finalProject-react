@@ -1,7 +1,8 @@
 import Home from '../pages/Home';
 import Dashboard from '../pages/Dashboard';
-import About from '../pages/About';
 import Sneaker from '../pages/Sneaker';
+import Panda from '../pages/Panda'
+import Seafoam from '../pages/Seafoam'
 
 interface RouteType {
     path: string,
@@ -24,15 +25,21 @@ const routes: RouteType[] = [
       protected: true
     },
     {
-      path: "/about",
-      component: About,
-      name: "About",
-      protected: false
-    },
-    {
       path: "/sneaker",
       component: Sneaker,
       name: "Sneaker",
+      protected: true
+    },
+    {
+      path: "/panda",
+      component: Panda,
+      name: "Panda",
+      protected: true
+    },
+    {
+      path: "/seafoam",
+      component: Seafoam,
+      name: "Seafoam",
       protected: true
     },
 ];
