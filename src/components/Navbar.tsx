@@ -49,14 +49,14 @@ function Navbar() {
                         </Button>
                         <Button className="p-3 m-5 bg-black justify-center rounded-lg">
                             <div>
-                                <Link to="/dashboard" onClick={ clicked } className="flex place-items-center mt-4 pr-1 pl-5 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
+                                <Link to="/dashboard" onClick={ clicked } className="flex place-items-center mt-4 ml-2 pl-2 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
                                     Dashboard
                                 </Link>
                             </div>
                         </Button>
                         <Button className="p-3 m-5 bg-black justify-center rounded-lg">
                             <div>
-                                <Link to="/sneaker" onClick={ clicked } className="flex place-items-center mt-4 ml-3 pl-5 pr-5 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
+                                <Link to="/sneaker" onClick={ clicked } className="flex place-items-center mt-4 ml-2 pl-4 pr-3 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
                                     Sneaker
                                 </Link>
                             </div>
@@ -74,7 +74,7 @@ function Navbar() {
                             :
                             <Button className="p-3 m-5 bg-black justify-center rounded-lg">
                                 <div>
-                                    <Link to="/" onClick={ () => { signOutOnClick()}} className="flex place-items-center mt-4 pl-8 pr-8 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white">
+                                    <Link to="/" onClick={ () => { signOutOnClick()}} className="flex place-items-center mt-4 pl-7 pr-7 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white">
                                         Logout
                                     </Link>
                                 </div>
