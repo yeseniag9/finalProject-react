@@ -6,11 +6,11 @@ import { server_calls } from "../api/server"
 import { useDispatch, useStore } from "react-redux";
 import { chooseName, chooseNickname, chooseDate, chooseSize } from "../redux/slices/RootSlice";
 
-interface ContactFormProps {
+interface SneakerFormProps {
   id?: string[]
 }
 
-const ContactForm = (props:ContactFormProps) => {
+const SneakerForm = (props:SneakerFormProps) => {
   const { register, handleSubmit } = useForm({})
   const dispatch = useDispatch();
   const store = useStore();
@@ -65,4 +65,4 @@ const ContactForm = (props:ContactFormProps) => {
   )
 }
 
-export default ContactForm
+export default SneakerForm
