@@ -1,8 +1,8 @@
 import panda from "../assets/images/panda.jpg"
 import seafoam from "../assets/images/seafoam.jpg"
-import Panda from "../pages/Panda"
+import Panda from "./Panda"
 
-function Sneaker() {
+function Sneakers() {
   return (
     <div>
         <div className="flex justify-center pt-14 mt-14 text-7xl font-sans font-semibold">All Sneakers</div>
@@ -20,4 +20,4 @@ function Sneaker() {
   )
 }
 
-export default Sneaker
+export default Sneakers

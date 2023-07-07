@@ -1,6 +1,6 @@
 import DataTable from '../components/DataTable' 
 
-function Dashboard() {
+function Inventory() {
   return (
     <div>
       <DataTable />
@@ -8,4 +8,4 @@ function Dashboard() {
   )
 }
 
-export default Dashboard
+export default Inventory

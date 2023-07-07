@@ -1,7 +1,7 @@
 import Home from '../pages/Home';
 import Account from '../pages/Account';
-import Dashboard from '../pages/Dashboard';
-import Sneaker from '../pages/Sneaker';
+import Inventory from '../pages/Inventory';
+import Sneakers from '../pages/Sneakers';
 import Panda from '../pages/Panda'
 import Seafoam from '../pages/Seafoam'
 
@@ -26,15 +26,15 @@ const routes: RouteType[] = [
       protected: true
     },
     {
-      path: "/dashboard",
-      component: Dashboard,
-      name: "Dashboard",
+      path: "/inventory",
+      component: Inventory,
+      name: "Inventory",
       protected: true
     },
     {
-      path: "/sneaker",
-      component: Sneaker,
-      name: "Sneaker",
+      path: "/sneakers",
+      component: Sneakers,
+      name: "Sneakers",
       protected: true
     },
     {
