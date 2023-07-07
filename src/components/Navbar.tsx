@@ -42,8 +42,8 @@ function Navbar() {
                     <div className="flex flex-row text-sm lg:flex-grow pl-3">
                         <Button className="p-3 m-5 bg-black justify-center rounded-lg">
                             <div>
-                                <Link to="/" onClick={ clicked } className="flex place-items-center mt-4 pl-8 pr-4 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
-                                    Home
+                                <Link to="/account" onClick={ clicked } className="flex place-items-center mt-4 pl-6 pr-2 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
+                                    Account
                                 </Link>
                             </div>
                         </Button>
@@ -66,7 +66,7 @@ function Navbar() {
 
                             <Button className="p-3 m-5 bg-black justify-center rounded-lg">
                                 <div>
-                                    <Link to="/" onClick={ () => { signInOnClick()}} className="flex place-items-center mt-4 pl-8 pr-8 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white">
+                                    <Link to="/account" onClick={ () => { signInOnClick()}} className="flex place-items-center mt-4 pl-8 pr-8 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white">
                                         Login
                                     </Link>
                                 </div>

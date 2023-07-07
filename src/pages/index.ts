@@ -1,4 +1,5 @@
 export * from './Home'
+export * from './Account'
 export * from './Dashboard'
 export * from './Sneaker'
 export * from './Panda'

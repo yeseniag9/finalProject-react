@@ -1,4 +1,5 @@
 import Home from '../pages/Home';
+import Account from '../pages/Account';
 import Dashboard from '../pages/Dashboard';
 import Sneaker from '../pages/Sneaker';
 import Panda from '../pages/Panda'
@@ -17,6 +18,12 @@ const routes: RouteType[] = [
       component: Home,
       name: "Home Screen",
       protected: false
+    },
+    {
+      path: "/account",
+      component: Account,
+      name: "Account",
+      protected: true
     },
     {
       path: "/dashboard",
