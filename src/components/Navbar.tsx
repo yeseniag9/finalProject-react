@@ -31,7 +31,7 @@ function Navbar() {
 
     return (
         <nav className="flex items-center justify-between bg-red-600 p-6">
-            <div className="flex flex-wrap">
+            <div className="flex items-center flex-wrap">
                 <div className="flex items-center flex-shrink-0 text-white mr-6">
                     <Link to="/" className="font-semibold text-xl tracking-tight">My App</Link> 
                 </div>
@@ -89,7 +89,7 @@ function Navbar() {
                     <></>
                 ) }  
             </div>          
-            <FontAwesomeIcon icon={faShoppingCart} className='icon'/>
+            <FontAwesomeIcon icon={faShoppingCart} style={{fontSize: '1.4em'}} className='icon'/>
         </nav> 
     )
 }
