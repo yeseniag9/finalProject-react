@@ -1,4 +1,4 @@
-function Account() {
+function Checkout() {
     return (
         <div>
             
@@ -6,4 +6,4 @@ function Account() {
     )
 }
 
-export default Account
+export default Checkout

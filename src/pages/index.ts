@@ -1,4 +1,5 @@
 export * from './Home'
+export * from './Checkout'
 export * from './Account'
 export * from './Inventory'
 export * from './Sneakers'
