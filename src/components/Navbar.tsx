@@ -88,8 +88,10 @@ function Navbar() {
                     ) : (
                     <></>
                 ) }  
-            </div>          
-            <FontAwesomeIcon icon={faShoppingCart} style={{fontSize: '1.4em'}} className='icon'/>
+            </div>
+            <Link to="/cart">
+                <FontAwesomeIcon icon={faShoppingCart} style={{fontSize: '1.4em'}} className='icon'/>
+            </Link>       
         </nav> 
     )
 }
