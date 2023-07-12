@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import Button from './Button'
 import { signInWithPopup, signOut } from 'firebase/auth'
 import { auth, Providers } from '../config/firebase'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
     const [isVisible, setIsVisible] = useState(false) 
@@ -37,6 +39,7 @@ function Navbar() {
                     <i className="fas fa-bars"></i>
                 </button>
             </div>
+            <FontAwesomeIcon icon={faShoppingCart} className=''/>
             { isVisible ? ( 
                 <div className="block">
                     <div className="flex flex-row text-sm lg:flex-grow pl-3">
