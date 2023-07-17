@@ -43,27 +43,6 @@ function Navbar() {
                 { isVisible ? ( 
                     <div className="block">
                         <div className="flex flex-row text-sm lg:flex-grow pl-3">
-                            <Button className="p-3 m-5 bg-black justify-center rounded-lg">
-                                <div>
-                                    <Link to="/account" onClick={ clicked } className="flex place-items-center mt-4 pl-6 pr-2 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
-                                        Account
-                                    </Link>
-                                </div>
-                            </Button>
-                            <Button className="p-3 m-5 bg-black justify-center rounded-lg">
-                                <div>
-                                    <Link to="/inventory" onClick={ clicked } className="flex place-items-center mt-4 ml-3 pl-2 pr-1 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
-                                        Inventory
-                                    </Link>
-                                </div>
-                            </Button>
-                            <Button className="p-3 m-5 bg-black justify-center rounded-lg">
-                                <div>
-                                    <Link to="/sneakers" onClick={ clicked } className="flex place-items-center mt-4 ml-2 pl-3 pr-1 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
-                                        Sneakers
-                                    </Link>
-                                </div>
-                            </Button>
                             {
                                 !auth.currentUser ?
 
@@ -75,13 +54,36 @@ function Navbar() {
                                     </div>
                                 </Button>
                                 :
-                                <Button className="p-3 m-5 bg-black justify-center rounded-lg">
-                                    <div>
-                                        <Link to="/" onClick={ () => { signOutOnClick()}} className="flex place-items-center mt-4 pl-7 pr-7 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white">
-                                            Logout
-                                        </Link>
-                                    </div>
-                                </Button>
+                                <div>
+                                    <Button className="p-3 m-5 bg-black justify-center rounded-lg">
+                                        <div>
+                                            <Link to="/account" onClick={ clicked } className="flex place-items-center mt-4 pl-6 pr-2 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
+                                                Account
+                                            </Link>
+                                        </div>
+                                    </Button>
+                                    <Button className="p-3 m-5 bg-black justify-center rounded-lg">
+                                        <div>
+                                            <Link to="/inventory" onClick={ clicked } className="flex place-items-center mt-4 ml-3 pl-2 pr-1 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
+                                                Inventory
+                                            </Link>
+                                        </div>
+                                    </Button>
+                                    <Button className="p-3 m-5 bg-black justify-center rounded-lg">
+                                        <div>
+                                            <Link to="/sneakers" onClick={ clicked } className="flex place-items-center mt-4 ml-2 pl-3 pr-1 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
+                                                Sneakers
+                                            </Link>
+                                        </div>
+                                    </Button>
+                                    <Button className="p-3 m-5 bg-black justify-center rounded-lg">
+                                        <div>
+                                            <Link to="/" onClick={ () => { signOutOnClick()}} className="flex place-items-center mt-4 pl-7 pr-7 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white">
+                                                Logout
+                                            </Link>
+                                        </div>
+                                    </Button>
+                                </div>
                             }
                         </div>
                     </div> 
