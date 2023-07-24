@@ -1,5 +1,4 @@
 import Home from '../pages/Home';
-import Account from '../pages/Account';
 import Inventory from '../pages/Inventory';
 import Sneakers from '../pages/Sneakers';
 import Panda from '../pages/Panda'
@@ -18,12 +17,6 @@ const routes: RouteType[] = [
       component: Home,
       name: "Home",
       protected: false
-    },
-    {
-      path: "/account",
-      component: Account,
-      name: "Account",
-      protected: true
     },
     {
       path: "/inventory",

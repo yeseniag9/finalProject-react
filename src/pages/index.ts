@@ -1,5 +1,4 @@
 export * from './Home'
-export * from './Account'
 export * from './Inventory'
 export * from './Sneakers'
 export * from './Panda'

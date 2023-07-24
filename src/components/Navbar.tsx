@@ -48,20 +48,13 @@ function Navbar() {
 
                                 <Button className="p-3 m-5 bg-black justify-center rounded-lg">
                                     <div>
-                                        <Link to="/account" onClick={ () => { signInOnClick()}} className="flex place-items-center mt-4 pl-8 pr-8 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white">
+                                        <Link to="/inventory" onClick={ () => { signInOnClick()}} className="flex place-items-center mt-4 pl-8 pr-8 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white">
                                             Login
                                         </Link>
                                     </div>
                                 </Button>
                                 :
                                 <div>
-                                    <Button className="p-3 m-5 bg-black justify-center rounded-lg">
-                                        <div>
-                                            <Link to="/account" onClick={ clicked } className="flex place-items-center mt-4 pl-6 pr-2 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
-                                                Account
-                                            </Link>
-                                        </div>
-                                    </Button>
                                     <Button className="p-3 m-5 bg-black justify-center rounded-lg">
                                         <div>
                                             <Link to="/inventory" onClick={ clicked } className="flex place-items-center mt-4 ml-3 pl-2 pr-1 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
