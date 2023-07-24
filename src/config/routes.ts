@@ -1,5 +1,4 @@
 import Home from '../pages/Home';
-import Checkout from '../pages/Checkout';
 import Account from '../pages/Account';
 import Inventory from '../pages/Inventory';
 import Sneakers from '../pages/Sneakers';
@@ -18,12 +17,6 @@ const routes: RouteType[] = [
       path: "",
       component: Home,
       name: "Home",
-      protected: false
-    },
-    {
-      path: "/checkout",
-      component: Checkout,
-      name: "Checkout",
       protected: false
     },
     {

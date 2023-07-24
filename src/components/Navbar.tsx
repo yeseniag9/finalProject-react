@@ -90,10 +90,7 @@ function Navbar() {
                     ) : (
                     <></>
                 ) }  
-            </div>
-            <Link to="/checkout">
-                <FontAwesomeIcon icon={faShoppingCart} style={{fontSize: '1.4em'}} className='icon'/>
-            </Link>       
+            </div>   
         </nav> 
     )
 }
