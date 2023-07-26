@@ -10,4 +10,4 @@ function Panda() {
   )
 }
 
-export default Panda
+export default Panda 
